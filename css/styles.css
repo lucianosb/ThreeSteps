@@ -4,6 +4,14 @@ body{
 	color: #000;
 }
 
+#logo {
+	float: left;
+}
+
+.step {
+	height: 510px;
+}
+
 .step button {
 	margin-bottom: 10px;
 	cursor: default;
@@ -11,8 +19,86 @@ body{
 
 #credits {
 	float: right;
+	font-size: 8pt;
 }
 
 #credits ul li{
 	list-style: none;
+}
+
+/*
+ * FAQ STYLES
+ * By Tutorialzine
+ */
+
+#headingSection{
+	background-color:#7b8b98;
+	padding:10px;
+	position:relative;
+	border:1px solid #8b9ba7;
+	border-bottom:none;
+}
+
+#faqSection{
+	padding:20px 90px 60px 60px;
+	text-shadow:1px 1px 0 white;
+}
+
+#headingSection h1{
+	color:#fff;
+	font-size:36px;
+	font-weight:normal;
+	margin-bottom: 0;
+}
+
+/* The expand / collapse button */
+
+#headingSection a.button{
+	background:url('../media/buttons.png') no-repeat;
+	width:80px;
+	height:38px;
+	position:absolute;
+	right:50px;
+	top:20px;
+	text-indent:-9999px;
+	overflow:hidden;
+	border:none !important;
+}
+
+#headingSection a.button.expand:hover{ background-position:0 -38px;}
+#headingSection a.button.collapse{ background-position:0 -76px;}
+#headingSection a.button.collapse:hover{ background-position:0 bottom;}
+
+/* Definition Lists */
+
+dt{
+	color:#8F9AA3;
+	font-size:25px;
+	margin-top:30px;
+	padding-left:25px;
+	position:relative;
+	cursor:pointer;
+	border:1px solid transparent;
+}
+
+dt:hover{ color:#5f6a73;}
+
+dt .icon{
+	background:url('../media/bullets.png') no-repeat;
+	height:12px;
+	left:0;
+	position:absolute;
+	top:11px;
+	width:12px;
+}
+
+dt.opened .icon{ background-position:left bottom;}
+
+dd{
+	font-size:14px;
+	color:#000;
+	line-height:1.5;
+	padding:20px 0 0 25px;
+	width:580px;
+	display:none;
 }

@@ -10,9 +10,11 @@ Use width:auto or a fixed width on the .social_buttons element
 
 /*Social icons sprite file*/
 .social_buttons > span:before {
-	background: url(social_buttons_icons.png) no-repeat;
+	background: url(../media/social_buttons_icons.png) no-repeat;
 }
-
+.step .social_buttons > span:before {
+	background: none;
+}
 
 /*Resets*/
 .social_buttons {
@@ -70,7 +72,9 @@ button::-moz-focus-inner {
 }
 
 /*164px height*/
-.sb_164 {width: 300px;}
+.sb_164 {
+	width: 300px;
+}
 .sb_164 > span,
 .sb_164 > span:before {
 	font-size: 30px;
@@ -206,6 +210,10 @@ button::-moz-focus-inner {
 	display: block;
 	float: left;
 	margin-right: 10px;
+}
+.step .social_buttons > span:before{
+	border: none;
+	display: none;
 }
 
 /*Interactions*/
