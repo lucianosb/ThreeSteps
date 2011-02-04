@@ -23,7 +23,7 @@ body{
 	height: 510px;
 }
 
-.step button {
+.step button, .step a {
 	margin-bottom: 10px;
 	cursor: default;
 }
