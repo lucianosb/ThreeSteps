@@ -1,13 +1,36 @@
-README
-
+============================================
+Three Steps README
 ============================================
 
 A three step landing page to quick show off your product, service or whatever you'd like to.
 
+Step 1: Fork or download it to your computer.
+
+Step 2: Edit it according to the following guidelines below.
+
+Step 3: Broadcast to the world!
+
+============================================
+GUIDELINES
 ============================================
 
+*CSS*
+There are 5 css files here. The styles.css is the one who coordinates specifc elements on the page. The others are from the 960.gs framework and for styling the buttons.
+
+*JS*
+One Javascript file to add effects such as the expandable FAQ
+
+*MEDIA*
+All media files, images or sounds, are supposed to go here
+
+*INDEX.HTML*
+The one thing you spend most time editing. The file is all commented up on each session. Pay attention to the comments
+
+============================================
 LICENSE
-
 ============================================
 
-This work is licensed under the MIT License
+This work is licensed under the MIT License. See MIT-License.txt or refer to http://creativecommons.org/licenses/MIT/
+
+
+

@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+body{
+	background: #efefef url(../media/lgrey069.jpg) repeat top left;
+	color: #000;
+}
+
+.step button {
+	margin-bottom: 10px;
+	cursor: default;
+}
+
+#credits {
+	float: right;
+}
+
+#credits ul li{
+	list-style: none;
+}
